@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="public/logo-full.svg" width=50%>
+</h1>
 
-## Getting Started
+<p align="center">This project was developed during the <strong><a href="https://nextlevelweek.com/">Next Level Week #4</a></strong> offered by <strong><a href="https://github.com/Rocketseat">@Rocketseat</a></strong></p>
 
-First, run the development server:
+<p align="center">During February 22-28, 2021</p> <br>
+
+<p align="center">
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
+</p>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/frankjrp/RocketSeat-NLW-4">
+  
+  <a href="https://github.com/frankjrp/RocketSeat-NLW-4/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/frankjrp/RocketSeat-NLW-4">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Moveit" src="public/moveit.svg" width="100%">
+</p>
+
+## 🔖 About
+The project **Move.it** was developed to remind you to exercise regularly.
+
+## 🛠 Technologies
+This project was developed using the following technologies:
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 💻 Preview
+[![Deploy with Vercel](https://vercel.com/button)](https://moveit-frankjrp.vercel.app/)
+
+## 🚀 Getting Started
+Clone the project and access the folder
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/frankjrp/RocketSeat-NLW-4.git && cd Moveit-next
 ```
+Follow the steps below
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Install the dependencies
+$ yarn install
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Start the project
+$ yarn dev
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# The project will be available on port 3000 <http://localhost:3000>
+```
+## 🎨 Layout
+You can view the project layout through the link below:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Layout Web 1.0](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
